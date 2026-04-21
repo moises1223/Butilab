@@ -1,0 +1,15 @@
+:root{
+    --branco: #fff;
+    --preto:  #000;
+    --roxo:     #8F39C5;    
+    --cinza:    #5A5A5A;
+    --verde:    #85D224;
+
+
+    --h-header: 50px;
+    --total-brand:12;
+    --logo-width:12rem;
+    --total-logo-width: calc(var(--total-brand) * var(--logo-width) *2);
+
+    --animation-duration: calc(var(--total-brand) * 1.5s)
+}

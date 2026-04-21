@@ -1,0 +1,66 @@
+@import url('variables.css');
+@import url('header.css');
+@import url('home.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "Sora", sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-style: none;
+
+}
+
+html {
+
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: #fff #000;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden !important;
+    background-color: var(--preto);
+}
+section {
+    /* Padrão sections do site */
+    width: 100%;
+    height: 100vh;
+}
+.container {
+    margin: 0 220px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin: 0 auto;
+        /* Centraliza o conteúdo */
+        padding: 0 10px;
+        /* Espaçamento nas laterais */
+        max-width: calc(100% - 30px);
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1440px){
+    .container {
+        margin: 0 auto;
+        /* Centraliza o conteúdo */
+        padding: 0 10px;
+        /* Espaçamento nas laterais */
+        max-width: calc(100% - 30px);
+    }
+}
+
+
+@media(prefers-reduced-motion) {
+    .leftToRight {
+        transition: none;
+    }
+}
