@@ -40,6 +40,8 @@
                 padding: 0 30px;
                 font-weight: 800;
                 font-size: 22px;
+                background-color: var(--branco);
+                color: var(--preto);
                 border-radius: 8px;
                 height: 80px;
                 transition: transform 0.2s , background-color 0.2s , color 0.2s ;
